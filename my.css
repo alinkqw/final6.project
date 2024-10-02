@@ -1,0 +1,224 @@
+.image{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+@media (mAX-width: 768px) {
+  .image img {
+      max-width: 500px;
+  }
+}
+
+@media (mAX-width: 768px) {
+  .image img {
+      max-width: 700px;
+  }
+}
+/*.container{
+    margin-left: 520px;
+    font-size: 20px;
+    margin-top: 100px;
+    border: 3px solid whitesmoke;
+    width: 300px;
+    height: 300px;
+    padding-left: 90px;
+    padding-top: 50px;
+    background-color: #f9f9f9;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px black;
+}*/
+.container{
+    display: block;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    border: 3px solid whitesmoke;
+    width: 300px;
+    height: 300px;
+    background-color: #f9f9f9;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px black;
+    width: 800px;
+    margin-left: 50px;
+}
+
+.username {
+    margin-top: 50px;
+    font-size: 17px;
+    margin-left: 50px;
+}
+.password{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.input2{
+    width: 300px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #630a09; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.styled-input:focus {
+border-color: #555;
+outline: none; 
+}
+.styled-button {
+    background-color: #cccdcc; 
+    border: none; 
+    color: rgb(0, 0, 0); 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease;
+    height: 40px; 
+    padding-top: 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+  .styled-button:hover {
+    background-color: #8e8e8e; 
+  }
+
+  .styled-button:active {
+    background-color: #8c8c8c; 
+    transform: scale(0.98); 
+  }
+  .back-button{
+    width: 120px;
+    height: 40px;
+    margin-top: -200px;
+    border-radius: 5%;
+    font-size: 17px;
+    cursor: pointer; 
+    margin-left: 620px;
+    margin-top: 650px;
+  }
+  .back{
+    margin-top: -580px;
+    margin-left: 40px;
+  }
+  body{
+    background-color: rgb(213, 252, 252);
+  }
+  /*@media (max-width: 768px) {
+    .container {
+        width: 90%; 
+        padding: 30px 15px; 
+    }
+
+    .username {
+        font-size: 16px;
+    }
+
+    .input2 {
+        font-size: 15px; 
+    }
+
+    .styled-button {
+        font-size: 15px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .username {
+        font-size: 15px; 
+    }
+
+    .input2 {
+        font-size: 14px; 
+    }
+
+    .styled-button {
+        font-size: 14px; 
+    }
+
+    .back-button {
+        font-size: 15px; 
+        
+    }
+    .back-button {
+      font-size: 15px; 
+      margin-left: 500PX;
+  }
+}*/
+/*@media (max-width: 768px) {
+  .container {
+      width: 90%; 
+      padding: 30px 15px; 
+  }
+*/
+@media (max-width: 768px) {
+    .container {
+        width: 80%; 
+        padding: 10px; 
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+  .username {
+      font-size: 16px; 
+  }
+
+  .input2 {
+      font-size: 15px;
+  }
+
+  .styled-button {
+      font-size: 15px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding: 20px 10px;
+  }
+
+  .username {
+      font-size: 15px; 
+  }
+
+  .input2 {
+      font-size: 14px; 
+  }
+
+  .styled-button {
+      font-size: 14px; 
+  }
+
+  .back-button {
+      font-size: 15px; 
+      margin-left: 600px;
+      margin-top: 640px;
+  }
+  @media (min-width: 1024px) {
+    .container {
+        margin-left: 0;
+        width: 60%; 
+        margin-right: -300px;
+    }
+
+.body{
+    display: block;
+    justify-content: center;
+}
+  }
+}
